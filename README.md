@@ -6,16 +6,9 @@ I use this repository to upload and maintain different coding tasks, experiments
 
 ## 🛠️ Technologies & Languages
 
-- C
-- C++
-- Java
-- Python
 - HTML
 - CSS
 - JavaScript
-- SQL
-- Node.js
-- And more...
 
 ## 📂 Repository Contents
 
@@ -23,10 +16,6 @@ This repository may contain:
 
 - Programming practice
 - HTML/CSS/JavaScript tasks
-- Java programs
-- C/C++ programs
-- Python programs
-- SQL practice
 - Small projects
 - Coding experiments
 - Daily learning exercises
