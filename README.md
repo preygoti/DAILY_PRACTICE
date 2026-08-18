@@ -2,7 +2,7 @@
 
 This repository contains my daily programming and development practice.
 
-I use this repository to upload and maintain different coding tasks, experiments, and practice programs while learning new technologies and improving my programming skills.
+I use this repository to upload and maintain different coding tasks, experiments, and practice programs while learning new technologies & improving my programming skills.
 
 ## 🛠️ Technologies & Languages
 
