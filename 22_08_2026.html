@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    Name : <input type="text" value="" placeholder="" id="name"><br><br>
+    Percentage : <input type="text" value="" placeholder="in %" id="percentage" ><br><br>
+    Family Income : <input type="text" value="" placeholder="in Rs" id="income"><br><br>
+    <select id="cat">
+
+        <option>Category</option>
+        <option>General</option>
+        <option>OBC</option>
+        <option>SC/ST</option>
+
+    </select>
+
+    <button onclick="submit()">submit</button>
+
+    <h1 id="rec"></h1>
+    <h2 id="total"></h2>
+
+
+ 
+    <script>
+
+
+        function submit()
+        {
+        
+        let per=document.getElementById("percentage").value
+        let cat=document.getElementById("cat").value
+        let income=document.getElementById("income").value
+
+
+        if(per>=85 && cat=="General")
+        {
+            document.getElementById("total").innerHTML="You got 10000 RS as scholarship";
+
+            if(income<200000)
+        {
+            document.getElementById("total").innerHTML="You got 15000 RS as scholarship";
+
+        }
+
+        }   
+
+        else if(per>=75 && cat=="OBC")
+        {
+
+            document.getElementById("total").innerHTML="You got 15000 RS as scholarship";
+
+            if(income<200000)
+            {
+            document.getElementById("total").innerHTML="You got 20000 RS as scholarship";
+
+            }
+        }
+        else if(per>=65 && cat=="SC/ST")
+        {
+
+            document.getElementById("total").innerHTML="You got 25000 RS as scholarship";
+
+            if(income<200000)
+            {
+            document.getElementById("total").innerHTML="You got 30000 RS as scholarship";
+
+            }
+        }
+        else if(per<65)
+        {
+            document.getElementById("total").innerHTML="Due to less Percentage you dont get !!"
+        }
+
+
+    }
+
+        
+        </script>
+    
+</body>
+</html>
