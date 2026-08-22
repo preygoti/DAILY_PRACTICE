@@ -22,7 +22,7 @@ This repository may contain:
 
 ## 🎯 Goal
 
-To practice consistently, improve my coding skills, and maintain a record of my learning journey.
+To practice consistently,improve my coding skills, and maintain a record of my learning journey.
 
 ## 👨‍💻 Author
 
